@@ -25,3 +25,30 @@ C:\Users\Hp Probook 440 G5\source\repos\HarrisParallel\HarrisParallel\obj\Debug\
 C:\Users\Hp Probook 440 G5\source\repos\HarrisParallel\HarrisParallel\obj\Debug\HarrisParallel.exe
 C:\Users\Hp Probook 440 G5\source\repos\HarrisParallel\HarrisParallel\obj\Debug\HarrisParallel.pdb
 C:\Users\Hp Probook 440 G5\source\repos\HarrisParallel\HarrisParallel\obj\Debug\HarrisParallel.csprojAssemblyReference.cache
+D:\suli\7. felev\szpa\SZPA\HarrisParallel\HarrisParallel\bin\Debug\NUnit3.TestAdapter.dll
+D:\suli\7. felev\szpa\SZPA\HarrisParallel\HarrisParallel\bin\Debug\NUnit3.TestAdapter.pdb
+D:\suli\7. felev\szpa\SZPA\HarrisParallel\HarrisParallel\bin\Debug\nunit.engine.dll
+D:\suli\7. felev\szpa\SZPA\HarrisParallel\HarrisParallel\bin\Debug\nunit.engine.api.dll
+D:\suli\7. felev\szpa\SZPA\HarrisParallel\HarrisParallel\bin\Debug\nunit.engine.core.dll
+D:\suli\7. felev\szpa\SZPA\HarrisParallel\HarrisParallel\bin\Debug\Accord.dll.config
+D:\suli\7. felev\szpa\SZPA\HarrisParallel\HarrisParallel\bin\Debug\HarrisParallel.exe.config
+D:\suli\7. felev\szpa\SZPA\HarrisParallel\HarrisParallel\bin\Debug\HarrisParallel.exe
+D:\suli\7. felev\szpa\SZPA\HarrisParallel\HarrisParallel\bin\Debug\HarrisParallel.pdb
+D:\suli\7. felev\szpa\SZPA\HarrisParallel\HarrisParallel\bin\Debug\Accord.dll
+D:\suli\7. felev\szpa\SZPA\HarrisParallel\HarrisParallel\bin\Debug\Accord.Imaging.dll
+D:\suli\7. felev\szpa\SZPA\HarrisParallel\HarrisParallel\bin\Debug\Accord.Math.Core.dll
+D:\suli\7. felev\szpa\SZPA\HarrisParallel\HarrisParallel\bin\Debug\Accord.Math.dll
+D:\suli\7. felev\szpa\SZPA\HarrisParallel\HarrisParallel\bin\Debug\Accord.Statistics.dll
+D:\suli\7. felev\szpa\SZPA\HarrisParallel\HarrisParallel\bin\Debug\nunit.framework.dll
+D:\suli\7. felev\szpa\SZPA\HarrisParallel\HarrisParallel\bin\Debug\Accord.xml
+D:\suli\7. felev\szpa\SZPA\HarrisParallel\HarrisParallel\bin\Debug\Accord.Imaging.xml
+D:\suli\7. felev\szpa\SZPA\HarrisParallel\HarrisParallel\bin\Debug\Accord.Math.xml
+D:\suli\7. felev\szpa\SZPA\HarrisParallel\HarrisParallel\bin\Debug\Accord.Math.Core.xml
+D:\suli\7. felev\szpa\SZPA\HarrisParallel\HarrisParallel\bin\Debug\Accord.Statistics.xml
+D:\suli\7. felev\szpa\SZPA\HarrisParallel\HarrisParallel\bin\Debug\nunit.framework.pdb
+D:\suli\7. felev\szpa\SZPA\HarrisParallel\HarrisParallel\bin\Debug\nunit.framework.xml
+D:\suli\7. felev\szpa\SZPA\HarrisParallel\HarrisParallel\obj\Debug\HarrisParallel.csprojAssemblyReference.cache
+D:\suli\7. felev\szpa\SZPA\HarrisParallel\HarrisParallel\obj\Debug\HarrisParallel.csproj.CoreCompileInputs.cache
+D:\suli\7. felev\szpa\SZPA\HarrisParallel\HarrisParallel\obj\Debug\HarrisParallel.csproj.CopyComplete
+D:\suli\7. felev\szpa\SZPA\HarrisParallel\HarrisParallel\obj\Debug\HarrisParallel.exe
+D:\suli\7. felev\szpa\SZPA\HarrisParallel\HarrisParallel\obj\Debug\HarrisParallel.pdb

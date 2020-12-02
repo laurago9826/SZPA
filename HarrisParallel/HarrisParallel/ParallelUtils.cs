@@ -156,21 +156,49 @@ namespace HarrisParallel
         {
             double k = 0.04;
             double[] harris = new double[x2sum.Length];
-            Parallel.For(0, harris.Length, i =>
+            int iterationPerThread = (int)Math.Ceiling((double)harris.Length / THREAD_NUM);
+            int threadCount = Math.Min(THREAD_NUM, harris.Length);
+            Task[] tasks = new Task[threadCount];
+            for (int i = 0; i < threadCount; i++)
             {
-                int trace = x2sum[i] + y2sum[i];
-                harris[i] = (x2sum[i] * y2sum[i] - xysum[i] * xysum[i]) - k * trace * trace;
-            });
+                int threadIdx = i;
+                Task t = new Task(() =>
+                {
+                    int startIdx = threadIdx * iterationPerThread;
+                    for (int j = startIdx; j < Math.Min(startIdx + iterationPerThread, harris.Length); j++)
+                    {
+                        int trace = x2sum[j] + y2sum[j];
+                        harris[j] = (x2sum[j] * y2sum[j] - xysum[j] * xysum[j]) - k * trace * trace;
+                    }
+                });
+                t.Start();
+                tasks[i] = t;
+            }
+            Task.WaitAll(tasks);
             return harris;
         }
 
         public static int[] Multiply(byte[] array1, byte[] array2)
         {
             int[] multiplied = new int[array1.Length];
-            Parallel.For(0, array1.Length, i =>
+            int iterationPerThread = (int)Math.Ceiling((double)array1.Length / THREAD_NUM);
+            int threadCount = Math.Min(THREAD_NUM, array1.Length);
+            Task[] tasks = new Task[threadCount];
+            for (int i = 0; i < threadCount; i++)
             {
-                multiplied[i] = array1[i] * array2[i];
-            });
+                int threadIdx = i;
+                Task t = new Task(() =>
+                {
+                    int startIdx = threadIdx * iterationPerThread;
+                    for (int j = startIdx; j < Math.Min(startIdx + iterationPerThread, array1.Length); j++)
+                    {
+                        multiplied[j] = array1[j] * array2[j];
+                    }
+                });
+                t.Start();
+                tasks[i] = t;
+            }
+            Task.WaitAll(tasks);
             return multiplied;
         }
 
