@@ -19,7 +19,7 @@ namespace HarrisParallel
 
         static void Main(string[] args)
         {
-            Bitmap orig = new Bitmap(@"C:\Users\Hp Probook 440 G5\Downloads\image2.jpg");
+            Bitmap orig = new Bitmap(@"C:\Users\Hp Probook 440 G5\Documents\kepek\chess.jpg");
             Bitmap img = Grayscale.CommonAlgorithms.BT709.Apply(orig);
             double threshold = 20000;
             int winSize = 11;
@@ -27,8 +27,8 @@ namespace HarrisParallel
             List<IntPoint> pointsParallel = HarrisParallel(img, threshold, winSize);
             
             //Utils.MarkPoints(SequentialUtils.ApplyFilter(filterX, img, 1), pointsSeq, Color.Green).Save(@"C:\Users\Hp Probook 440 G5\Downloads\sequential.jpg", ImageFormat.Jpeg);
-            Utils.MarkPoints(orig, pointsSeq, Color.White).Save(@"C:\Users\Hp Probook 440 G5\Downloads\sequential.jpg", ImageFormat.Jpeg);
-            Utils.MarkPoints(orig, pointsParallel, Color.White).Save(@"C:\Users\Hp Probook 440 G5\Downloads\parallel.jpg", ImageFormat.Jpeg);
+            Utils.MarkPoints(orig, pointsSeq, Color.White).Save(@"C:\Users\Hp Probook 440 G5\Documents\kepek\sequential.jpg", ImageFormat.Jpeg);
+            Utils.MarkPoints(orig, pointsParallel, Color.White).Save(@"C:\Users\Hp Probook 440 G5\Documents\kepek\parallel.jpg", ImageFormat.Jpeg);
             Console.ReadLine();
         }
 

@@ -16,7 +16,7 @@ namespace HarrisParallel
         [Test]
         public void TestHarrisResult()
         {
-            Bitmap orig = new Bitmap(@"C:\Users\Hp Probook 440 G5\Downloads\custom2.jpg");
+            Bitmap orig = new Bitmap(@"C:\Users\Hp Probook 440 G5\Documents\kepek\custom2.jpg");
             Bitmap img = Grayscale.CommonAlgorithms.BT709.Apply(orig);
             double threshold = 20000;
             int winSize = 3;
